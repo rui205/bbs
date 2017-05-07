@@ -1,0 +1,1060 @@
+2017-03-06 15:45:03 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:03 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:03 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:03 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@63d4e2ba: startup date [Mon Mar 06 15:45:03 CST 2017]; root of context hierarchy
+2017-03-06 15:45:03 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:03 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:03 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:03 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+2017-03-06 15:45:03 DefaultDocumentLoader.java DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-03-06 15:45:03 PluggableSchemaResolver.java DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2017-03-06 15:45:04 PluggableSchemaResolver.java DEBUG Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2017-03-06 15:45:04 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+2017-03-06 15:45:04 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+2017-03-06 15:45:04 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+2017-03-06 15:45:04 DefaultBeanDefinitionDocumentReader.java DEBUG Loading bean definitions
+2017-03-06 15:45:04 DefaultNamespaceHandlerResolver.java DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-03-06 15:45:04 BeanDefinitionParserDelegate.java DEBUG Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2017-03-06 15:45:04 AbstractBeanDefinitionReader.java DEBUG Loaded 4 bean definitions from location pattern [spring/spring-dao.xml]
+2017-03-06 15:45:04 AbstractApplicationContext.java DEBUG Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@63d4e2ba: org.springframework.beans.factory.support.DefaultListableBeanFactory@1563da5: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:04 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:04 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:04 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:04 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao]
+2017-03-06 15:45:04 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:04 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:04 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\com\rui\dao]
+2017-03-06 15:45:04 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:04 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:04 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath*:com/rui/dao/**/*.class] to resources [file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class], file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]]
+2017-03-06 15:45:04 ClassPathScanningCandidateComponentProvider.java DEBUG Ignored because not a concrete top-level class: file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class]
+2017-03-06 15:45:04 ClassPathScanningCandidateComponentProvider.java DEBUG Identified candidate component class: file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]
+2017-03-06 15:45:04 ClassPathMapperScanner.java DEBUG Creating MapperFactoryBean with name 'userDao' and 'com.rui.dao.login.UserDao' mapperInterface
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:04 MutablePropertySources.java DEBUG Adding [environmentProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:04 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-03-06 15:45:04 MutablePropertySources.java DEBUG Adding [localProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [environmentProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemEnvironment]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.driver' in any property source. Returning [null]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [localProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [environmentProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemEnvironment]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.url' in any property source. Returning [null]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [localProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/bbs'
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [environmentProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemEnvironment]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.username' in any property source. Returning [null]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [localProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.username' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [environmentProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemEnvironment]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.password' in any property source. Returning [null]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [localProperties]
+2017-03-06 15:45:04 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.password' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:04 AbstractApplicationContext.java DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@161b062a]
+2017-03-06 15:45:04 AbstractApplicationContext.java DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@48524010]
+2017-03-06 15:45:04 DefaultListableBeanFactory.java DEBUG Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1563da5: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2017-03-06 15:45:04 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:04 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'dataSource'
+2017-03-06 15:45:04 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'dataSource'
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'dataSource'
+2017-03-06 15:45:05 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:45:05 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'dataSource'
+2017-03-06 15:45:05 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\mapper]
+2017-03-06 15:45:05 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:45:05 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:45:05 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath:mapper/**/*.xml] to resources [file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]]
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2017-03-06 15:45:05 VFS.java DEBUG Class not found: org.jboss.vfs.VFS
+2017-03-06 15:45:05 JBoss6VFS.java DEBUG JBoss 6 VFS API is not available in this environment.
+2017-03-06 15:45:05 VFS.java DEBUG Class not found: org.jboss.vfs.VirtualFile
+2017-03-06 15:45:05 VFS.java DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-03-06 15:45:05 VFS.java DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Reader entry: login
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Reader entry: Account.class
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Reader entry: User.class
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Reader entry: ����   1 ?
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:45:05 DefaultVFS.java DEBUG Reader entry: ����   1 :
+2017-03-06 15:45:05 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.Account matches criteria [is assignable to Object]
+2017-03-06 15:45:05 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.User matches criteria [is assignable to Object]
+2017-03-06 15:45:05 SqlSessionFactoryBean.java DEBUG Scanned package: 'com.rui.entity' for aliases
+2017-03-06 15:45:05 SqlSessionFactoryBean.java DEBUG Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-03-06 15:45:05 SqlSessionFactoryBean.java DEBUG Parsed mapper file: 'file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]'
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:05 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'userDao'
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'userDao'
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'userDao' to allow for resolving potential circular references
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'userDao'
+2017-03-06 15:45:05 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'userDao'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:05 AbstractApplicationContext.java DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@fa4c865]
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:45:05 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-03-06 15:45:05 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-03-06 15:45:05 PropertySourcesPropertyResolver.java DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-03-06 15:45:05 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'userDao'
+2017-03-06 15:45:05 SqlSessionUtils.java DEBUG Creating a new SqlSession
+2017-03-06 15:45:05 SqlSessionUtils.java DEBUG SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c39bec8] was not registered for synchronization because synchronization is not active
+2017-03-06 15:45:05 DataSourceUtils.java DEBUG Fetching JDBC Connection from DataSource
+2017-03-06 15:45:06 SpringManagedTransaction.java DEBUG JDBC Connection [jdbc:mysql://localhost:3306/bbs, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-03-06 15:45:06 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from account where id = ?; 
+2017-03-06 15:45:06 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2017-03-06 15:45:06 SqlSessionUtils.java DEBUG Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c39bec8]
+2017-03-06 15:45:06 DataSourceUtils.java DEBUG Returning JDBC Connection to DataSource
+2017-03-06 15:45:06 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:06 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:06 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:06 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-06 15:45:06 DefaultDocumentLoader.java DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-03-06 15:45:06 BeansDtdResolver.java DEBUG Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2017-03-06 15:45:06 DefaultBeanDefinitionDocumentReader.java DEBUG Loading bean definitions
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'DB2'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'DB2'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'DB2'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Derby'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Derby'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Derby'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'H2'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'H2'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'H2' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'H2'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'HSQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'HSQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'HSQL'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Informix'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Informix'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Informix'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'MS-SQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'MS-SQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'MS-SQL'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'MySQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'MySQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'MySQL'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Oracle'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Oracle'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Oracle'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'PostgreSQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'PostgreSQL'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'PostgreSQL'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Sybase'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Sybase'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Sybase'
+2017-03-06 15:45:06 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Hana'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Hana'
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Hana' to allow for resolving potential circular references
+2017-03-06 15:45:06 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Hana'
+2017-03-06 15:45:06 SQLErrorCodesFactory.java INFO SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-06 15:45:06 SQLErrorCodesFactory.java DEBUG Looking up default SQLErrorCodes for DataSource [org.apache.commons.dbcp.BasicDataSource@3a44431a]
+2017-03-06 15:45:06 DataSourceUtils.java DEBUG Fetching JDBC Connection from DataSource
+2017-03-06 15:45:06 DataSourceUtils.java DEBUG Returning JDBC Connection to DataSource
+2017-03-06 15:45:06 SQLErrorCodesFactory.java DEBUG Database product name cached for DataSource [org.apache.commons.dbcp.BasicDataSource@3a44431a]: name is 'MySQL'
+2017-03-06 15:45:06 SQLErrorCodesFactory.java DEBUG SQL error codes for 'MySQL' found
+2017-03-06 15:45:06 SQLErrorCodeSQLExceptionTranslator.java DEBUG Unable to translate SQLException with Error code '0', will now try the fallback translator
+2017-03-06 15:45:06 SQLStateSQLExceptionTranslator.java DEBUG Extracted SQL state class 'S1' from value 'S1009'
+2017-03-06 15:45:24 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:24 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:24 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:24 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@481a15ff: startup date [Mon Mar 06 15:45:24 CST 2017]; root of context hierarchy
+2017-03-06 15:45:24 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:24 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:24 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:24 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+2017-03-06 15:45:24 DefaultDocumentLoader.java DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-03-06 15:45:24 PluggableSchemaResolver.java DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2017-03-06 15:45:24 PluggableSchemaResolver.java DEBUG Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2017-03-06 15:45:24 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+2017-03-06 15:45:25 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+2017-03-06 15:45:25 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+2017-03-06 15:45:25 DefaultBeanDefinitionDocumentReader.java DEBUG Loading bean definitions
+2017-03-06 15:45:25 DefaultNamespaceHandlerResolver.java DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-03-06 15:45:25 BeanDefinitionParserDelegate.java DEBUG Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2017-03-06 15:45:25 AbstractBeanDefinitionReader.java DEBUG Loaded 4 bean definitions from location pattern [spring/spring-dao.xml]
+2017-03-06 15:45:25 AbstractApplicationContext.java DEBUG Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@481a15ff: org.springframework.beans.factory.support.DefaultListableBeanFactory@d21a74c: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+2017-03-06 15:45:25 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:25 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:25 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:45:25 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:25 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:25 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:25 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:25 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:25 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao]
+2017-03-06 15:45:25 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:25 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:25 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\com\rui\dao]
+2017-03-06 15:45:25 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:25 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:45:25 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath*:com/rui/dao/**/*.class] to resources [file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class], file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]]
+2017-03-06 15:45:25 ClassPathScanningCandidateComponentProvider.java DEBUG Ignored because not a concrete top-level class: file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class]
+2017-03-06 15:45:25 ClassPathScanningCandidateComponentProvider.java DEBUG Identified candidate component class: file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]
+2017-03-06 15:45:25 ClassPathMapperScanner.java DEBUG Creating MapperFactoryBean with name 'userDao' and 'com.rui.dao.login.UserDao' mapperInterface
+2017-03-06 15:45:25 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:25 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:25 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:25 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:26 MutablePropertySources.java DEBUG Adding [environmentProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:26 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-03-06 15:45:26 MutablePropertySources.java DEBUG Adding [localProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [environmentProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemEnvironment]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.driver' in any property source. Returning [null]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [localProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [environmentProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemEnvironment]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.url' in any property source. Returning [null]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [localProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/bbs'
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [environmentProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemEnvironment]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.username' in any property source. Returning [null]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [localProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.username' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [environmentProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemEnvironment]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.password' in any property source. Returning [null]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [localProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.password' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:26 AbstractApplicationContext.java DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@cd1e646]
+2017-03-06 15:45:26 AbstractApplicationContext.java DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6dd7b5a3]
+2017-03-06 15:45:26 DefaultListableBeanFactory.java DEBUG Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d21a74c: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'dataSource'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'dataSource'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'dataSource'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:45:26 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'dataSource'
+2017-03-06 15:45:26 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\mapper]
+2017-03-06 15:45:26 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:45:26 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:45:26 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath:mapper/**/*.xml] to resources [file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]]
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2017-03-06 15:45:26 VFS.java DEBUG Class not found: org.jboss.vfs.VFS
+2017-03-06 15:45:26 JBoss6VFS.java DEBUG JBoss 6 VFS API is not available in this environment.
+2017-03-06 15:45:26 VFS.java DEBUG Class not found: org.jboss.vfs.VirtualFile
+2017-03-06 15:45:26 VFS.java DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-03-06 15:45:26 VFS.java DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Reader entry: login
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Reader entry: Account.class
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Reader entry: User.class
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Reader entry: ����   1 ?
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:45:26 DefaultVFS.java DEBUG Reader entry: ����   1 :
+2017-03-06 15:45:26 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.Account matches criteria [is assignable to Object]
+2017-03-06 15:45:26 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.User matches criteria [is assignable to Object]
+2017-03-06 15:45:26 SqlSessionFactoryBean.java DEBUG Scanned package: 'com.rui.entity' for aliases
+2017-03-06 15:45:26 SqlSessionFactoryBean.java DEBUG Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-03-06 15:45:26 SqlSessionFactoryBean.java DEBUG Parsed mapper file: 'file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:45:26 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'userDao'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'userDao'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'userDao' to allow for resolving potential circular references
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'userDao'
+2017-03-06 15:45:26 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'userDao'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:45:26 AbstractApplicationContext.java DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@c4ed84]
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-03-06 15:45:26 PropertySourcesPropertyResolver.java DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-03-06 15:45:26 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'userDao'
+2017-03-06 15:45:47 SqlSessionUtils.java DEBUG Creating a new SqlSession
+2017-03-06 15:45:47 SqlSessionUtils.java DEBUG SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ebb6851] was not registered for synchronization because synchronization is not active
+2017-03-06 15:45:47 DataSourceUtils.java DEBUG Fetching JDBC Connection from DataSource
+2017-03-06 15:45:48 SpringManagedTransaction.java DEBUG JDBC Connection [jdbc:mysql://localhost:3306/bbs, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-03-06 15:45:48 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from account where id = ?; 
+2017-03-06 15:45:49 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2017-03-06 15:45:49 SqlSessionUtils.java DEBUG Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ebb6851]
+2017-03-06 15:45:49 DataSourceUtils.java DEBUG Returning JDBC Connection to DataSource
+2017-03-06 15:45:49 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:45:49 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:45:49 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:45:49 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-06 15:45:49 DefaultDocumentLoader.java DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-03-06 15:45:49 BeansDtdResolver.java DEBUG Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2017-03-06 15:45:49 DefaultBeanDefinitionDocumentReader.java DEBUG Loading bean definitions
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'DB2'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'DB2'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'DB2'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Derby'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Derby'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Derby'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'H2'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'H2'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'H2' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'H2'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'HSQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'HSQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'HSQL'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Informix'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Informix'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Informix'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'MS-SQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'MS-SQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'MS-SQL'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'MySQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'MySQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'MySQL'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Oracle'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Oracle'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Oracle'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'PostgreSQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'PostgreSQL'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'PostgreSQL'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Sybase'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Sybase'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Sybase'
+2017-03-06 15:45:49 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'Hana'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'Hana'
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'Hana' to allow for resolving potential circular references
+2017-03-06 15:45:49 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'Hana'
+2017-03-06 15:45:49 SQLErrorCodesFactory.java INFO SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-06 15:45:49 SQLErrorCodesFactory.java DEBUG Looking up default SQLErrorCodes for DataSource [org.apache.commons.dbcp.BasicDataSource@52500920]
+2017-03-06 15:45:49 DataSourceUtils.java DEBUG Fetching JDBC Connection from DataSource
+2017-03-06 15:45:49 DataSourceUtils.java DEBUG Returning JDBC Connection to DataSource
+2017-03-06 15:45:49 SQLErrorCodesFactory.java DEBUG Database product name cached for DataSource [org.apache.commons.dbcp.BasicDataSource@52500920]: name is 'MySQL'
+2017-03-06 15:45:49 SQLErrorCodesFactory.java DEBUG SQL error codes for 'MySQL' found
+2017-03-06 15:45:49 SQLErrorCodeSQLExceptionTranslator.java DEBUG Unable to translate SQLException with Error code '0', will now try the fallback translator
+2017-03-06 15:45:49 SQLStateSQLExceptionTranslator.java DEBUG Extracted SQL state class 'S1' from value 'S1009'
+2017-03-06 15:47:30 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:47:30 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:47:30 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:47:30 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@646007f4: startup date [Mon Mar 06 15:47:30 CST 2017]; root of context hierarchy
+2017-03-06 15:47:30 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:47:30 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:47:30 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:47:31 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+2017-03-06 15:47:31 DefaultDocumentLoader.java DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-03-06 15:47:31 PluggableSchemaResolver.java DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2017-03-06 15:47:31 PluggableSchemaResolver.java DEBUG Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2017-03-06 15:47:31 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+2017-03-06 15:47:31 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+2017-03-06 15:47:31 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+2017-03-06 15:47:31 DefaultBeanDefinitionDocumentReader.java DEBUG Loading bean definitions
+2017-03-06 15:47:31 DefaultNamespaceHandlerResolver.java DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-03-06 15:47:31 BeanDefinitionParserDelegate.java DEBUG Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2017-03-06 15:47:31 AbstractBeanDefinitionReader.java DEBUG Loaded 4 bean definitions from location pattern [spring/spring-dao.xml]
+2017-03-06 15:47:31 AbstractApplicationContext.java DEBUG Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@646007f4: org.springframework.beans.factory.support.DefaultListableBeanFactory@7a675056: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+2017-03-06 15:47:31 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:47:31 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:47:31 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:47:31 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:47:31 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:47:31 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:47:31 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:47:31 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:47:31 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao]
+2017-03-06 15:47:31 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:47:31 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:47:31 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\com\rui\dao]
+2017-03-06 15:47:31 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:47:31 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:47:31 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath*:com/rui/dao/**/*.class] to resources [file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class], file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]]
+2017-03-06 15:47:32 ClassPathScanningCandidateComponentProvider.java DEBUG Ignored because not a concrete top-level class: file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class]
+2017-03-06 15:47:32 ClassPathScanningCandidateComponentProvider.java DEBUG Identified candidate component class: file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]
+2017-03-06 15:47:32 ClassPathMapperScanner.java DEBUG Creating MapperFactoryBean with name 'userDao' and 'com.rui.dao.login.UserDao' mapperInterface
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:47:32 MutablePropertySources.java DEBUG Adding [environmentProperties] PropertySource with lowest search precedence
+2017-03-06 15:47:32 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-03-06 15:47:32 MutablePropertySources.java DEBUG Adding [localProperties] PropertySource with lowest search precedence
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [environmentProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemEnvironment]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.driver' in any property source. Returning [null]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [localProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [environmentProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemEnvironment]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.url' in any property source. Returning [null]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [localProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/bbs'
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [environmentProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemEnvironment]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.username' in any property source. Returning [null]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [localProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.username' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [environmentProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemEnvironment]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.password' in any property source. Returning [null]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [localProperties]
+2017-03-06 15:47:32 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.password' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:47:32 AbstractApplicationContext.java DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@16c069df]
+2017-03-06 15:47:32 AbstractApplicationContext.java DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@189cbd7c]
+2017-03-06 15:47:32 DefaultListableBeanFactory.java DEBUG Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7a675056: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2017-03-06 15:47:32 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'dataSource'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'dataSource'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'dataSource'
+2017-03-06 15:47:32 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:47:32 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2017-03-06 15:47:32 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'dataSource'
+2017-03-06 15:47:32 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\mapper]
+2017-03-06 15:47:32 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:47:32 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:47:32 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath:mapper/**/*.xml] to resources [file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]]
+2017-03-06 15:47:32 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2017-03-06 15:47:33 VFS.java DEBUG Class not found: org.jboss.vfs.VFS
+2017-03-06 15:47:33 JBoss6VFS.java DEBUG JBoss 6 VFS API is not available in this environment.
+2017-03-06 15:47:33 VFS.java DEBUG Class not found: org.jboss.vfs.VirtualFile
+2017-03-06 15:47:33 VFS.java DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-03-06 15:47:33 VFS.java DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Reader entry: login
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Reader entry: Account.class
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Reader entry: User.class
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Reader entry: ����   1 ?
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:47:33 DefaultVFS.java DEBUG Reader entry: ����   1 :
+2017-03-06 15:47:33 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.Account matches criteria [is assignable to Object]
+2017-03-06 15:47:33 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.User matches criteria [is assignable to Object]
+2017-03-06 15:47:33 SqlSessionFactoryBean.java DEBUG Scanned package: 'com.rui.entity' for aliases
+2017-03-06 15:47:33 SqlSessionFactoryBean.java DEBUG Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-03-06 15:47:33 SqlSessionFactoryBean.java DEBUG Parsed mapper file: 'file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]'
+2017-03-06 15:47:33 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:47:33 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'userDao'
+2017-03-06 15:47:33 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'userDao'
+2017-03-06 15:47:33 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'userDao' to allow for resolving potential circular references
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:47:33 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'userDao'
+2017-03-06 15:47:33 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'userDao'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:47:33 AbstractApplicationContext.java DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6d9f7a80]
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:47:33 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-03-06 15:47:33 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-03-06 15:47:33 PropertySourcesPropertyResolver.java DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-03-06 15:47:33 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'userDao'
+2017-03-06 15:47:38 SqlSessionUtils.java DEBUG Creating a new SqlSession
+2017-03-06 15:47:38 SqlSessionUtils.java DEBUG SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7cbc3762] was not registered for synchronization because synchronization is not active
+2017-03-06 15:47:38 DataSourceUtils.java DEBUG Fetching JDBC Connection from DataSource
+2017-03-06 15:47:38 SpringManagedTransaction.java DEBUG JDBC Connection [jdbc:mysql://localhost:3306/bbs, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-03-06 15:47:39 BaseJdbcLogger.java DEBUG ==>  Preparing: select id from account where id = ?; 
+2017-03-06 15:47:39 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2017-03-06 15:47:39 BaseJdbcLogger.java DEBUG <==      Total: 1
+2017-03-06 15:47:39 SqlSessionUtils.java DEBUG Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7cbc3762]
+2017-03-06 15:47:39 DataSourceUtils.java DEBUG Returning JDBC Connection to DataSource
+2017-03-06 15:48:23 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:48:23 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:48:23 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:48:23 AbstractApplicationContext.java INFO Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@646007f4: startup date [Mon Mar 06 15:48:23 CST 2017]; root of context hierarchy
+2017-03-06 15:48:23 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:48:23 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:48:23 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:48:23 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+2017-03-06 15:48:23 DefaultDocumentLoader.java DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-03-06 15:48:23 PluggableSchemaResolver.java DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2017-03-06 15:48:23 PluggableSchemaResolver.java DEBUG Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2017-03-06 15:48:23 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+2017-03-06 15:48:23 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+2017-03-06 15:48:23 PluggableSchemaResolver.java DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+2017-03-06 15:48:23 DefaultBeanDefinitionDocumentReader.java DEBUG Loading bean definitions
+2017-03-06 15:48:23 DefaultNamespaceHandlerResolver.java DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-03-06 15:48:23 BeanDefinitionParserDelegate.java DEBUG Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2017-03-06 15:48:23 AbstractBeanDefinitionReader.java DEBUG Loaded 4 bean definitions from location pattern [spring/spring-dao.xml]
+2017-03-06 15:48:23 AbstractApplicationContext.java DEBUG Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@646007f4: org.springframework.beans.factory.support.DefaultListableBeanFactory@7a675056: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:48:24 MutablePropertySources.java DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2017-03-06 15:48:24 MutablePropertySources.java DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-03-06 15:48:24 AbstractEnvironment.java DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/test-classes/com/rui/dao/**/*.class]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\com\rui\dao]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/com/rui/dao/**/*.class]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath*:com/rui/dao/**/*.class] to resources [file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class], file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]]
+2017-03-06 15:48:24 ClassPathScanningCandidateComponentProvider.java DEBUG Ignored because not a concrete top-level class: file [D:\Users\Administrator\minnkill\target\test-classes\com\rui\dao\login\UserDaoTest.class]
+2017-03-06 15:48:24 ClassPathScanningCandidateComponentProvider.java DEBUG Identified candidate component class: file [D:\Users\Administrator\minnkill\target\classes\com\rui\dao\login\UserDao.class]
+2017-03-06 15:48:24 ClassPathMapperScanner.java DEBUG Creating MapperFactoryBean with name 'userDao' and 'com.rui.dao.login.UserDao' mapperInterface
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:48:24 MutablePropertySources.java DEBUG Adding [environmentProperties] PropertySource with lowest search precedence
+2017-03-06 15:48:24 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-03-06 15:48:24 MutablePropertySources.java DEBUG Adding [localProperties] PropertySource with lowest search precedence
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [environmentProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [systemEnvironment]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.driver' in any property source. Returning [null]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.driver' in [localProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [environmentProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [systemEnvironment]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.url' in any property source. Returning [null]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.url' in [localProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/bbs'
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [environmentProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [systemEnvironment]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.username' in any property source. Returning [null]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.username' in [localProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.username' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [environmentProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [systemEnvironment]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Could not find key 'jdbc.password' in any property source. Returning [null]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Searching for key 'jdbc.password' in [localProperties]
+2017-03-06 15:48:24 PropertySourcesPropertyResolver.java DEBUG Found key 'jdbc.password' in [localProperties] with type [String] and value 'root'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:48:24 AbstractApplicationContext.java DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@24c22fe]
+2017-03-06 15:48:24 AbstractApplicationContext.java DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@205d38da]
+2017-03-06 15:48:24 DefaultListableBeanFactory.java DEBUG Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7a675056: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2017-03-06 15:48:24 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'dataSource'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'dataSource'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'dataSource'
+2017-03-06 15:48:24 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:48:24 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2017-03-06 15:48:24 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'dataSource'
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Looking for matching resources in directory tree [D:\Users\Administrator\minnkill\target\classes\mapper]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Searching directory [D:\Users\Administrator\minnkill\target\classes\mapper\login] for files matching pattern [D:/Users/Administrator/minnkill/target/classes/mapper/**/*.xml]
+2017-03-06 15:48:24 PathMatchingResourcePatternResolver.java DEBUG Resolved location pattern [classpath:mapper/**/*.xml] to resources [file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]]
+2017-03-06 15:48:24 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2017-03-06 15:48:24 VFS.java DEBUG Class not found: org.jboss.vfs.VFS
+2017-03-06 15:48:24 JBoss6VFS.java DEBUG JBoss 6 VFS API is not available in this environment.
+2017-03-06 15:48:24 VFS.java DEBUG Class not found: org.jboss.vfs.VirtualFile
+2017-03-06 15:48:24 VFS.java DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-03-06 15:48:24 VFS.java DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Reader entry: login
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Reader entry: Account.class
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Reader entry: User.class
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Listing file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/Account.class
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Reader entry: ����   1 ?
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Find JAR URL: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Not a JAR: file:/D:/Users/Administrator/minnkill/target/classes/com/rui/entity/login/User.class
+2017-03-06 15:48:24 DefaultVFS.java DEBUG Reader entry: ����   1 :
+2017-03-06 15:48:24 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.Account matches criteria [is assignable to Object]
+2017-03-06 15:48:24 ResolverUtil.java DEBUG Checking to see if class com.rui.entity.login.User matches criteria [is assignable to Object]
+2017-03-06 15:48:24 SqlSessionFactoryBean.java DEBUG Scanned package: 'com.rui.entity' for aliases
+2017-03-06 15:48:25 SqlSessionFactoryBean.java DEBUG Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2017-03-06 15:48:25 SqlSessionFactoryBean.java DEBUG Parsed mapper file: 'file [D:\Users\Administrator\minnkill\target\classes\mapper\login\UserMapper.xml]'
+2017-03-06 15:48:25 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'sqlSessionFactory'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-03-06 15:48:25 DefaultSingletonBeanRegistry.java DEBUG Creating shared instance of singleton bean 'userDao'
+2017-03-06 15:48:25 AbstractAutowireCapableBeanFactory.java DEBUG Creating instance of bean 'userDao'
+2017-03-06 15:48:25 AbstractAutowireCapableBeanFactory.java DEBUG Eagerly caching bean 'userDao' to allow for resolving potential circular references
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:48:25 AbstractAutowireCapableBeanFactory.java DEBUG Invoking afterPropertiesSet() on bean with name 'userDao'
+2017-03-06 15:48:25 AbstractAutowireCapableBeanFactory.java DEBUG Finished creating instance of bean 'userDao'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-03-06 15:48:25 AbstractApplicationContext.java DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@c4ed84]
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-03-06 15:48:25 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-03-06 15:48:25 PropertySourcesPropertyResolver.java DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-03-06 15:48:25 PropertySourcesPropertyResolver.java DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-03-06 15:48:25 AbstractBeanFactory.java DEBUG Returning cached instance of singleton bean 'userDao'
+2017-03-06 15:48:29 SqlSessionUtils.java DEBUG Creating a new SqlSession
+2017-03-06 15:48:29 SqlSessionUtils.java DEBUG SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ebb6851] was not registered for synchronization because synchronization is not active
+2017-03-06 15:48:29 DataSourceUtils.java DEBUG Fetching JDBC Connection from DataSource
+2017-03-06 15:48:30 SpringManagedTransaction.java DEBUG JDBC Connection [jdbc:mysql://localhost:3306/bbs, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-03-06 15:48:30 BaseJdbcLogger.java DEBUG ==>  Preparing: select username from account where id = ?; 
+2017-03-06 15:48:30 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2017-03-06 15:48:30 BaseJdbcLogger.java DEBUG <==      Total: 1
+2017-03-06 15:48:30 SqlSessionUtils.java DEBUG Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ebb6851]
+2017-03-06 15:48:30 DataSourceUtils.java DEBUG Returning JDBC Connection to DataSource
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 10:30:34 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 10:30:35 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 10:30:35 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 10:30:35 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 10:30:35 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 10:30:35 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 10:30:35 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 10:30:35 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 10:32:54 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 10:34:28 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 10:37:55 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 17:11:11 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 17:11:52 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 17:13:25 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "account_id", data type 4, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "sex", data type -7, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "remaek1", data type 12, in table "bbs..user"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Retrieving column information for table "account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "id", data type 4, in table "bbs..account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "is_manager", data type -7, in table "bbs..account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..account"
+2017-03-07 17:37:43 Log4jImpl.java DEBUG Found column "is_root", data type -7, in table "bbs..account"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "email", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "phone", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "state", data type 4, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "addr", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..user"
+2017-04-04 20:44:40 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..user"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Retrieving column information for table "admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "aid", data type 4, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "root", data type 4, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..admin"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Retrieving column information for table "floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "fid", data type 4, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "tid", data type 4, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "content", data type 12, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..floor"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Retrieving column information for table "reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "rid", data type 4, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "fid", data type 4, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "content", data type 12, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..reply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Retrieving column information for table "safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "sid", data type 4, in table "bbs..safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "problem", data type 12, in table "bbs..safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "answer", data type 12, in table "bbs..safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..safe"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Retrieving column information for table "secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "sid", data type 4, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "rid", data type 4, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "content", data type 12, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..secondreply"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Retrieving column information for table "tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "tid", data type 4, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "tname", data type 12, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "content", data type 12, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "top", data type 4, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "digit", data type 4, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..tie"
+2017-04-04 20:44:41 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "email", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "phone", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "state", data type 4, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "addr", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..user"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Retrieving column information for table "tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "tid", data type 4, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "tname", data type 12, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "content", data type 12, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "digit", data type 4, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "top", data type 93, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..tie"
+2017-04-10 21:16:50 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "email", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "phone", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "state", data type 4, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "addr", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..user"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Retrieving column information for table "tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "tid", data type 4, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "tname", data type 12, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "content", data type 12, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "digit", data type 4, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "top", data type 93, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..tie"
+2017-04-10 21:21:31 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..tie"
+2017-04-10 21:24:25 Log4jImpl.java DEBUG Retrieving column information for table "user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "username", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "password", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "name", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "email", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "phone", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "state", data type 4, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "addr", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..user"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Retrieving column information for table "tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "tid", data type 4, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "uid", data type 4, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "tname", data type 12, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "content", data type 12, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "digit", data type 4, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "top", data type 93, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "create_date", data type 93, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "update_date", data type 93, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "remark", data type 12, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "remark1", data type 12, in table "bbs..tie"
+2017-04-10 21:24:26 Log4jImpl.java DEBUG Found column "remark2", data type 12, in table "bbs..tie"

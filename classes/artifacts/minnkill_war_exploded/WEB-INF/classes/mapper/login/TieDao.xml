@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rui.dao.login.TieDao">
+    <resultMap id="tieCustom" type="com.rui.entity.login.TieCustom">
+        <id column="tid" property="tie.tid"/>
+        <result column="uid" property="tie.uid"/>
+        <result column="content" property="tie.content"/>
+        <result column="create_date" property="tie.createDate"/>
+        <result column="digit" property="tie.digit"/>
+        <result column="top" property="tie.top"/>
+        <result column="update_date" property="tie.updateDate"/>
+        <result column="tname" property="tie.tname"/>
+        <result column="username" property="uname"/>
+    </resultMap>
+    <select id="findByCondition" resultMap="tieCustom">
+        SELECT tid,tie.uid,tname,content,top,digit,tie.create_date,tie.update_date,username
+        from tie,user
+        <where>
+            tie.uid = user.uid and tie.tname like concat(concat('%',#{condition}),'%') order by top desc limit #{offset},#{rows}
+        </where>
+    </select>
+    <select id="countTie" resultType="integer">
+        select count(*) from tie where tie.tname like concat(concat('%',#{condition}),'%')
+    </select>
+
+</mapper>
